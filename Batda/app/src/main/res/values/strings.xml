@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Batda</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="myharavan">.myharavan.com</string>
+    <string name="Ban_dong_y"><a href = "http://google.com">Bạn đồng ý với điều khoảng sử dụng </a>của <a href ="">Haravan</a> khi quyết định đăng ký tài khoản.</string>
+   <string name="copyright">\u00a9 Haravan - Developed by Batda.com </string>
+</resources>

@@ -1,0 +1,5 @@
+Video captureing process:
+Open Expression Encode 4 Screen Capture.
+After finishing caturing -> (open it again) choose the video ->send to encoder.
+After editing -> file -> encoder -> check in "output" to find out where the file is.
+
