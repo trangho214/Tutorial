@@ -1,5 +1,6 @@
 package softs.hnt.com.batda;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.text.method.LinkMovementMethod;
@@ -14,9 +15,10 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sign_in);
+        setContentView(R.layout.register);
         txtCheck = (TextView)findViewById(R.id.txtCheck);
         txtCheck.setMovementMethod(LinkMovementMethod.getInstance());
+        startActivity(new Intent(this, FragmentChangeActivity.class));
     }
 
 

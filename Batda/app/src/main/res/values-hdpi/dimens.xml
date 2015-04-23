@@ -1,5 +1,9 @@
 <?xml version= "1.0" encoding ="utf-8"?>
     <resources>
+    <dimen name="slidingmenu_offset">40dp</dimen>
+    <dimen name="list_padding">6.6666665dp</dimen>
+    <dimen name="shadow_width">10.0dp</dimen>
+
     <dimen name="value_1">0.6666667dp</dimen>
     <dimen name="value_2">1.3333334dp</dimen>
     <dimen name="value_3">2.0dp</dimen>
