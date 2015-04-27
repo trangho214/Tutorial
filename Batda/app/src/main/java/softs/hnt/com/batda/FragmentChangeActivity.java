@@ -5,12 +5,13 @@ import android.support.v4.app.Fragment;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
-import fragment.ColorFragment;
 import fragment.ColorMenuFragment;
+import fragment.DashboardFragment;
 
 public class FragmentChangeActivity extends BaseActivity {
 	
 	private Fragment mContent;
+    public SlidingMenu sm;
 	
 	public FragmentChangeActivity() {
 		super(R.string.changing_fragments);
@@ -19,12 +20,13 @@ public class FragmentChangeActivity extends BaseActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        sm = getSlidingMenu();
 		// set the Above View
 		if (savedInstanceState != null)
 			mContent = getSupportFragmentManager().getFragment(savedInstanceState, "mContent");
 		if (mContent == null)
-			mContent = new ColorFragment(R.color.red);
-		
+			mContent = new DashboardFragment();
+
 		// set the Above View
 		setContentView(R.layout.content_frame);
 		getSupportFragmentManager()
@@ -41,6 +43,7 @@ public class FragmentChangeActivity extends BaseActivity {
 		
 		// customize the SlidingMenu
 		getSlidingMenu().setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+
 	}
 	
 	@Override

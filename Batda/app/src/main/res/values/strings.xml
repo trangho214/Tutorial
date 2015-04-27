@@ -1,5 +1,5 @@
 <resources>
-<!--From sliding bar-->
+    <!--From sliding bar-->
     <string name="properties">SlidingMenu Properties</string>
     <string name="general">General</string>
     <string name="viewpager">ViewPager</string>
@@ -67,9 +67,17 @@
     <string name="pasword">mật khẩu</string>
     <string name="sub_domain">tên miền phụ</string>
     <string name="not_register">nếu bạn chưa có tài khoản</string>
-//    <string name="or">hoặc</string>
-
-<!-- TODO: Remove or change this placeholder text -->
+    <string name="or">hoặc</string>
+    <string name="chat">chat</string>
+    <string name="notification">thông báo</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="search">tìm kiếm</string>
+    <string name="today">Hôm nay</string>
+    <string name="yesterday">Hôm qua</string>
+    <string name="seven_days">7 ngày</string>
+    <string name="thirty_days">30 ngày</string>
+    <string name="ninety_days">90 ngày</string>
+    <string name="new_orders">DH Mới</string>
+    <string name="waiting_shopping_cart">Giỏ hàng chờ</string>
+    <string name="lorum_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.fdspnndd dksljm dakn sal sbak sakn ssjkdjweæw kjisaldnasndbd</string>
 </resources>

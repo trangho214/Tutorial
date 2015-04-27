@@ -15,12 +15,12 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/abc_btn_check_material"/>
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/abc_text_size_large_material"
+            android:textSize="@dimen/value_16"
             android:layout_marginBottom="@dimen/value_10"
             android:text="Dang ky"></TextView>
 
@@ -38,20 +38,20 @@
         <LinearLayout
             android:layout_marginBottom="@dimen/value_10"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/value_45"
             android:orientation="horizontal"
             >
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/value_45"
+                android:layout_height="match_parent"
                 android:background="@drawable/rectangle_grey"
                 android:layout_weight="1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textSize="@dimen/value_16"
+                android:paddingTop="@dimen/value_10"
                 android:text="@string/myharavan"
-                android:layout_gravity="center"
                 android:layout_weight="1"/>
 
         </LinearLayout>

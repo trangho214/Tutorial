@@ -9,7 +9,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:padding="10dp"
-        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha" />
+         />
 
     <TextView
         android:id="@+id/row_title"
