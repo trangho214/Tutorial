@@ -1,7 +1,7 @@
 package softs.hnt.com.buttonclickevent;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 //(4)implement OnclickListener interface cho MainActivity
 //implements View.OnClickListener chỉ được thêm vào khi thực hiện cách 4.
-public class MainActivity extends ActionBarActivity implements View.OnClickListener{
+public class MainActivity extends Activity implements View.OnClickListener{
     Button button2, button3, button4, button5, button6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +50,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         @Override
         public void onClick(View v) {
             //TODO: do something here
-            Toast.makeText(MainActivity.this,"Button2 is clicked", Toast.LENGTH_LONG ).show();
+            Toast.makeText(MainActivity.this,"Button3 is clicked", Toast.LENGTH_LONG ).show();
         }
     };
 
