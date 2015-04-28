@@ -10,7 +10,7 @@ import android.widget.Toast;
 //(4)implement OnclickListener interface cho MainActivity
 //implements View.OnClickListener chỉ được thêm vào khi thực hiện cách 4.
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
-    Button button2, button3, button4;
+    Button button2, button3, button4, button5, button6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +18,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         button2 = (Button)findViewById(R.id.btn2);
         button3 = (Button)findViewById(R.id.btn3);
         button4 = (Button)findViewById(R.id.btn4);
+        button5 = (Button)findViewById(R.id.btn5);
+        button6 = (Button)findViewById(R.id.btn6);
+        button4.setOnClickListener(this);
+        button5.setOnClickListener(this);
+        button6.setOnClickListener(this);
+
 
         //(2) Khởi tạo OnClickListener interface trực tiếp ngay sau khi gán sự kiện setOnClickListener vào button2
         button2.setOnClickListener(new View.OnClickListener() {
